@@ -1,3 +1,8 @@
 @import "logo.css";
+@import "title.css";
+@import "add-player.css";
 @import "play-area.css";
+@import "table.css";
+@import "table-header.css";
+@import "table-body.css";
 @import "author-credits.css";

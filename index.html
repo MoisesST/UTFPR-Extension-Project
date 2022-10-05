@@ -28,10 +28,42 @@
     </header>
 
     <main class="main">
-      <div class="play-area-container">
-        <div class="container-img-dice"></div>
-        <button class="roll-dice-btn">Roll Dice</button>
+      
+      <div class="title-container">
+        <h1 class="title">Dice Games</h1>
       </div>
+
+      <div class="container-add-player">
+        <input class="player-name-entry" type="text" placeholder="Player's name" />
+        <button class="add-player-btn">
+          <i class="add-player-icon fa-solid fa-user-plus"></i>
+        </button>
+      </div>
+
+      <div class="play-area-container">
+        <img class="dice-img" src="./assets/resources/img/no-face.png" alt="Dice" />
+        <button class="roll-dice-btn">Roll</button>
+      </div>
+
+      <table class="table">
+        <thead class="table-header">
+          <tr class="description titles">
+            <th class="player column description-column">Player</th>
+            <th class="played column description-column">Played</th>
+            <th class="score column description-column">Score</th>
+            <th class="ranking column description-column">Rank</th>
+          </tr>
+        </thead>
+
+        <tbody class="table-body">
+          <!-- <tr class="user-data titles"> -->
+            <!-- <td class="player-name column user-data-column">Geronima</td>
+            <td class="total-played column user-data-column">6</td>
+            <td class="player-score column user-data-column">100</td>
+            <td class="player-rank column user-data-column">1°</td> -->
+          <!-- </tr> -->
+        </tbody>
+      </table>
     </main>
 
     <footer class="footer">
@@ -53,6 +85,6 @@
       </div>
     </footer>
 
-    <script src="./src/index.js" type="module"></script>
+    <script src="./assets/resources/js/index.js" type="module"></script>
   </body>
 </html>
